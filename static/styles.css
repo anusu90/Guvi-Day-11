@@ -1,0 +1,90 @@
+html{
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    line-height: 1.7;
+}
+
+header{
+    position: relative;
+    width: 100%;
+}
+
+.header-div-1{
+    background-color: darkgray;
+    height: 200px;
+}
+
+.header-div-2{
+    background-color: lightgray;
+    height: 30px;
+}
+
+.header-div-3{
+    background-color: darkgray;
+    height: 30px;
+}
+
+.header-name{
+    display: inline;
+    font-size: 2em;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+div.img-name{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: max-content; 
+    position: absolute; 
+    left: 0px;
+    right: 0px;
+}
+
+img{
+    display: inline; 
+    width: 120px; 
+    height: 120px; 
+    border: dotted chocolate 2px; 
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+/* -------------------------MAIN---------------------------- */
+
+body{
+    width: 100%;
+}
+
+main{
+    width:100%;
+}
+
+.left-col{
+    width: 46%;
+    float: left;
+    text-align: justify;
+    padding-right: 4%;
+    border-right: darkgray solid 2px;
+    margin-right: 0px;
+}
+.right-col{
+    width: 46%;
+    float: right;
+    text-align: justify;
+    padding-left: 3%;
+    margin-left: 0px;
+    /* border-left: black solid 2px; */
+}
+
+i{
+    color: chocolate;
+    display: inline;
+}
+
+h3,h4,h5{
+    display: inline;
+}

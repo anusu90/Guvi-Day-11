@@ -1,0 +1,77 @@
+body {
+    color: indigo;
+    cursor: auto;
+    /* background-image: url('milky-way.jpeg'); */
+}
+
+
+div {
+    color: black;
+    cursor: move;
+    padding: 10px
+}
+
+.my-class{
+    color: crimson;
+    cursor: not-allowed;
+}
+
+#my-id{
+    color: green;
+    cursor: url("PL90540a.jpg"), progress;
+}
+
+#txt{
+    border: 5px solid;
+    border-color: red;
+    padding: 20px;
+}
+
+span:hover{
+    color: royalblue;
+}
+
+.child1{
+    background-color:red;
+
+}
+
+.child2{
+    background-color: green;
+}
+
+.child3{
+    background-color: blue;
+}
+
+.custom{
+    position: relative;
+    top: 50px
+}
+
+.custom-child{
+    position: absolute;
+    bottom: 0px;
+}
+
+.custom-parent{
+    position: relative;
+    top:25px;
+}
+
+/* .custom-previous-element{
+    
+} */
+
+.custom-fixed{
+    position: fixed;
+    top: 25px;
+}
+
+.custom-sticky {
+    position: sticky;
+    top: 10px;
+    border: 5px solid red;
+    background-color: beige;
+    z-index: 9999;
+}
