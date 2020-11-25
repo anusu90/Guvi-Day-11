@@ -1,4 +1,8 @@
+//header
+
 let header = document.createElement('header');
+header.setAttribute('id', 'header')
+document.body.append(header)
 
 let div1 = document.createElement('div');
 div1.classList.add('header-div-1');
@@ -12,10 +16,32 @@ let div3 = document.createElement('div');
 div3.classList.add('header-div-3');
 div3.innerHTML = '&nbsp;';
 
-header.append(div1,div2,div3);
+let divImg1 = document.createElement('div');
+divImg1.setAttribute('class','img-name')
+divImg1.setAttribute('style','top: 85px;')
+divImg1.innerHTML = '<img src="static/dp.JPG" >';
+
+let divImg2 = document.createElement('div');
+divImg2.setAttribute('class','img-name')
+divImg2.setAttribute('style','top: 200px;')
+divImg2.innerHTML = '<p class = "header-name"> ANUNAY SINHA </p>';
+
+
+let divP = document.createElement('div');
+divP.setAttribute('style','text-align: center; margin: 0px')
+divP.innerHTML = '<p style="margin: 1px auto;">Ranchi Jharkhand 834002 | 9840917857 | anusu90@gmail.com | www.github.com/anusu90</p>'
+
+let hr = document.createElement('hr');
+hr.setAttribute('style',"color: darkgray;")
+
+
+header.append(div1,div2,div3, divImg1, divImg2, divP);
+header.append( hr);
+// document.body.append(header);
 
 //SET MAIN
-main = document.getElementById('main');
+main = document.createElement('main');
+document.body.append(main);
 
 // LEFT COL
 divMain = document.createElement('div');
